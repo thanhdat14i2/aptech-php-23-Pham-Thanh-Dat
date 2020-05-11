@@ -1,0 +1,50 @@
+
+.mau-xanh{
+    color: green;
+}
+.mau-do{
+    color: red;
+}
+.nam-giua{
+    text-align: center;
+}
+.header{
+    background-color: #666;
+    height: 130px;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+.cha{
+    display: flex;
+}
+.cha .left{
+    width: 25%;
+    background-color: #ccc;
+    padding: 30px;
+}
+.cha .right{
+    width: 75%;
+    padding: 10px;
+}
+.cha .right .tittle{
+    font-size: 40px;
+}
+.cha .left ul{
+    list-style-type: none;
+}
+.footer{
+    background-color: grey;
+    height: 120px;
+    margin-top: -40px;
+}
+.footer h3{
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+

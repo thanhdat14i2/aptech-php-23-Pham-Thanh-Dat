@@ -1,0 +1,82 @@
+.head{
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+}
+.head-sub-1{
+    height: 50px;
+    background-color: blue;
+    width: 62%;
+    border: 1px solid white;
+    margin-top: 25px;
+    margin-left: 4%;
+}
+.head-sub-2{
+    height: 50px;
+    background-color: blue;
+    width: 26%;
+    border: 1px solid white;
+    margin-left: 4%;
+    margin-top: 25px;
+}
+.section{
+    margin-top: 20px;
+    background-color: lightslategray;
+    height: 200px;
+    display: flex;
+}
+.section-sub-1{
+    height: 200px;
+    width: 50%;
+}
+.section-sub-2{
+    height: 200px;
+    width: 50%;
+    display: flex;
+}
+
+.section-sub-1-1{
+    background-color: blue;
+    border: 1px solid white;
+    height: 20px;
+    width: 70%;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.section-sub-1-2{
+    background-color: blue;
+    border: 1px solid white;
+    height: 40px;
+    width: 70%;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.section-sub-2-1{
+    background-color: blue;
+    border: 1px solid white;
+    height: 110px;
+    width: 41%;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+.section-sub-2-2{
+    background-color: blue;
+    border: 1px solid white;
+    height: 110px;
+    width: 41%;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+.footer{
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+}
+.footer-1{
+    width: 28%;
+    height: 2px;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: 4%;
+}
