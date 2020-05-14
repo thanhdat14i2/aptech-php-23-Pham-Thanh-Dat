@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+.h25{
+    height: 25vh;
+}
+.h50{
+    height: 50vh;
+}
+.footer{
+    text-align: center;
+    margin-left: 35%;
+}
+.nava{
+    margin-top: 20px;
+}
+.mt-7{
+    margin-top: 90px;
+}
