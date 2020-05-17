@@ -17,3 +17,10 @@ body{
 .mt-7{
     margin-top: 90px;
 }
+.home{
+    border-bottom: 3px solid white;
+}
+a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid grey;
+}

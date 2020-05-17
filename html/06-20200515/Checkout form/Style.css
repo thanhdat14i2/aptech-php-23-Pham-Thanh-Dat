@@ -1,0 +1,21 @@
+img{
+    width: 45%;
+}
+.ml{
+    width: 95%;
+    margin-left: 15px;
+}
+.note{
+    font-size: 13px;
+}
+.space{
+    height: 100px;
+}
+.so3{
+    font-size: 18px;
+    border-radius: 10rem;
+    font-weight: 500;
+}
+.redeem{
+    width: 90px;
+}
