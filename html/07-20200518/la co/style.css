@@ -1,0 +1,36 @@
+.body__divi--red {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.body__diva--green {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.body__dive--blue {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 900px) {
+  body__divi--red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+  }
+  body__diva--green {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+  }
+  body__dive--blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+}
+/*# sourceMappingURL=style.css.map */

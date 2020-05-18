@@ -1,0 +1,49 @@
+
+    .body{
+        &__divi{
+            &--red{
+                height: 100px;
+                width: 100px;
+                background-color: green;
+            }
+        }
+        &__diva{
+            &--green{
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+            }
+        }
+        &__dive{
+            &--blue{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+            }
+        }
+    }
+@media only screen and (max-width: 900px){
+    body{
+        &__divi{
+            &--red{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+            }
+        }
+        &__diva{
+            &--green{
+                height: 100px;
+                width: 100px;
+                background-color: green;
+            }
+        }
+        &__dive{
+            &--blue{
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+            }
+        }
+    }
+}
