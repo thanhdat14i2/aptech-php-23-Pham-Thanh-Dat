@@ -1,14 +1,18 @@
 function taoElement() {
     var tableBodyElement = document.getElementById('table-body');
-    
+    var a = document.getElementById('them');
+    console.log(a);
+    a.innerHTML = 'dmmm';
     for (var i = 0; i < data.users.length; i++) {
-        console.log(data.users[1].id)
+        console.log(data.users.length);
+        
         
         var tableRow = document.createElement('tr');
         tableBodyElement.appendChild(tableRow);
 
         var tableData1 = document.createElement('td');
         tableData1.innerHTML = data.users[i].id;
+        console.log(data.users[i].id);
 
         var tableData2 = document.createElement('td');
         tableData2.innerHTML = data.users[i].name;
@@ -52,6 +56,22 @@ var data = {
         },
         {
             "id": 8,
+            "name": "Mrs. Kathlyn Parisian DDS",
+            "email": "ggrimes@example.net",
+            "password": "$2y$10$N.DpYW9Sd0c8p3rSVjO0MeZ5e7idfPeKPZyOO77m8vNSEOnMws5O2",
+            "created_at": "2019-03-26 04:55:03",
+            "updated_at": "2019-03-26 04:55:03"
+        },
+        {
+            "id": 7,
+            "name": "Mrs. Kathlyn Parisian DDS",
+            "email": "ggrimes@example.net",
+            "password": "$2y$10$N.DpYW9Sd0c8p3rSVjO0MeZ5e7idfPeKPZyOO77m8vNSEOnMws5O2",
+            "created_at": "2019-03-26 04:55:03",
+            "updated_at": "2019-03-26 04:55:03"
+        },
+        {
+            "id": 6,
             "name": "Mrs. Kathlyn Parisian DDS",
             "email": "ggrimes@example.net",
             "password": "$2y$10$N.DpYW9Sd0c8p3rSVjO0MeZ5e7idfPeKPZyOO77m8vNSEOnMws5O2",

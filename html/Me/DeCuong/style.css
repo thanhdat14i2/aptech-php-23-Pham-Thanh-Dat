@@ -1,0 +1,31 @@
+.bg-carousel{
+    background-image: url('2 copy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+body,html{
+    height: 100%;
+}
+.wh-100{
+    height: 100vh;
+}
+.wh-10{
+    height: 10vh;
+}
+.wh-25{
+    height: 25vh;
+}
+.wh-40{
+    height: 40vh;
+}
+.wh-20{
+    height: 20vh;
+}
+.font-size-p-card{
+    font-size: 22px;
+}
+.font-size-h5-card{
+    font-size: 30px;
+}

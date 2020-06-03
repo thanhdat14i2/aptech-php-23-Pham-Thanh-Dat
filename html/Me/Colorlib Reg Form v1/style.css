@@ -18,3 +18,4 @@ input{
 .bg-left{
     background-image: url("2.jpg");
 }
+*::-webkit-input-placeholder {color: white }

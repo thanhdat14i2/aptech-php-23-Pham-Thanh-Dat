@@ -1,0 +1,12 @@
+<div class="col-1"></div>
+<div class="col-7">
+    <h3 class="text-white">About</h3>
+    <p class="text-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+</div>
+<div class="col-3">
+    <h3 class="text-white">Contact</h3>
+    <a href="#" class="text-white">Follow on Twitter</a>
+    <a href="#" class="text-white">Like on Facebook</a>
+    <a href="#" class="text-white">Email me</a>
+</div>
+<div class="col-1"></div>
