@@ -24,6 +24,9 @@ body, html{
     display: -ms-flexbox;
     display: flex;
 }
+.content-col-card{
+    font-size: 100%;
+}
 
 
   
