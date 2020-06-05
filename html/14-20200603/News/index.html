@@ -6,6 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
@@ -14,17 +18,30 @@
             <div class="col-3 d-lg-block d-none">
                 <a href="#" class="btn btn-outline-danger">SIGN UP NOW</a>
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-10">
                 <h2 class=" text-lg-center"><a href="#" class="text-success">NEWS</a></h2>
             </div>
-            <div class="col-3 d-lg-flex d-none justify-content-end align-items-center ">
-                <i class="fas fa-search mr-2"></i>
-                <a href="#" class="btn btn-outline-success">SIGN IN</a>
+            <div class="col-lg-3 col-2 d-flex d-none justify-content-end align-items-center ">
+                <a href="#" class="btn btn-success d-lg-none d-block align-right" data-toggle="collapse" data-target="#demo"><i class="fas fa-bars"></i></a>
+                <a href="#" class="btn btn-outline-success d-lg-block d-none">SIGN IN</a>
+            </div>
+            <div class="col-12">
+                <div id="demo" class="collapse">
+                    <ul class="list-unstyled text-muted">
+                        <li class="mt-2"><a href="#" class=" text-muted">Home</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">HTML</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">CSS</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">JAVASCRIPT</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">PHP</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">React Js</a></li>
+                        <li class="mt-2"><a href="#" class=" text-muted">Laravel</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <hr class="d-lg-none d-block">
     </div>
-    <div class="container d-none d-lg-block border-bottom">
+    <div class="container d-lg-block d-none border-bottom">
         <ul class="list-unstyled d-flex justify-content-between text-muted">
             <li><a href="#" class=" text-muted"><i class="fas fa-chevron-left"></i></a></li>
             <li><a href="#" class=" text-muted">Home</a></li>
