@@ -1,5 +1,5 @@
-.bg {
-    background-image: url("p1.jpg");
+.bg-top {
+    background-image: url("1.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,59 +7,33 @@
 }
 body, html {
     height: 100%;
-    background-color: #333333;
-  }
-.blockdeed-horizon{
-    margin-top: -10px;
-    height: 2px;
 }
-.blockdeed-tittle{
-    font-size: 100px;
+.font-size-top-content{
+    font-size: 600%;
+    color: lavender;
+    font-style: normal;
 }
-.The-latest{
-    background-color: #000000;
-}
-.The-latest-tittle{
-    font-size: 25px;
-    text-align: center;
-}
-.off-fan{
-    background-color: #EDC458;
-}
-.off-fan-tittle{
-    font-style: initial;
-    font-size: 40px;
-}
-.off-fan-content{
-    font-size: 29px;
-}
-.expect-horizon{
-    margin-top: -5px;
-    height: 2px;
-    background-color: yellow;
-    width: 11%;
-}
-.expect-tittle{
-    font-size: 50px;
-}
-.expect-content{
-    font-size: 26px;
-}
-.live-bg{
-    background-image: url("3.jpg");
+.card-img{
+    opacity: 0.4;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.live-tittle{
-    font-size: 50px;
+.bg-yellow{
+    background-color: #edc458;
+    width: 30%;
 }
-.live-content{
-    font-size: 26px;
+.mt-50{
+    margin-top: -10px;
 }
-.property-content{
-    font-size: 26px;
+.ml-50{
+    margin-left: 50%;
 }
-.border-footer{
-    border-left: 2px solid #EDC458;
+.content-title{
+    font-size: 260%;
+}
+.content-off{
+    font-size: 130%;
+    line-height: normal;
 }
