@@ -28,7 +28,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        return "asfqwfqw";
+        return view('users.create');
     }
 
     /**
@@ -39,7 +39,12 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => bcrypt($request->password)
+        ]);
+        return redirect()->route('trang-chu');
     }
 
     /**
@@ -48,13 +53,18 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($user)
+    public function show(User $user)
     {
-        $user = User::find($user);
-        return view(
-            'users.show',
-            ['user'=>$user]
-        );
+        // 1. Goi Model User
+        // 2. Tim nguoi dung dua tren id truyen vao
+        // 3. Hien thi thong tin nguoi dung
+        // $user = User::find($id);
+        //
+        // dd($user);
+        // return 'xin chao, toi la user so ' . $id;
+        return view('users.show', [
+            'user' => $user
+        ]);
     }
 
     /**
@@ -65,7 +75,9 @@ class UserController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('users.edit', [
+            'user' => $user
+        ]);
     }
 
     /**
@@ -77,6 +89,11 @@ class UserController extends Controller
      */
     public function update(Request $request, User $user)
     {
+        // $user->update([
+        //     'name' => $request->name,
+        //     'email' => $request->email,
+        //     'password' => bcrypt($request->password)
+        // ]);
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
