@@ -14,7 +14,8 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        
+        $articles = Article::all();
+        dd($articles);
     }
 
     /**
@@ -24,7 +25,10 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        return view('articles.create');
+        $categories = ['Thoi Su', 'Chinh Tri', 'Phap Luat']; // lay tu DB ve
+        return view('articles.create', [
+            'categories' => $categories
+        ]);
     }
 
     /**
@@ -36,12 +40,22 @@ class ArticlesController extends Controller
     public function store(Request $request)
     {
         dd($request->all());
+        $title = $request->title;
+        $slug = Str::slug($title, '-');
+        $description = $request->description;
+        $content = $request->content;
+    
         Articles::create([
-            'title'=>$request->title,
-            'slug'=>Str::slug($request->title,'-'),
-            'description'=>$request->description,
-            'content'=>$request->content
+            'title' => $title,
+            'slug' => $slug,
+            'description' => $description,
+            'content' => $content
         ]);
+        
+        // DB::table('article_category')->save([
+        //     'category_name' => $category
+        // ])
+        return redirect()->route('articles.index');
     }
 
     /**

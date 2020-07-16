@@ -1,0 +1,18 @@
+.bg-right{
+    background-color: #f1f1f1;
+}
+.sub-bg-right{
+    background-color: #ffffff;
+}
+.bg-left{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+  }
+.h100{
+    height: 100vh;
+}

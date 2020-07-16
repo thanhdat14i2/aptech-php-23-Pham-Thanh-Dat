@@ -21,6 +21,14 @@
         <label for="content">content</label>
         <textarea name="content" id="content" cols="30" rows="10"></textarea>
     </div>
+    <div>
+        <label for="categories">Categories:</label>
+        <select name="category" id="categories">
+            @foreach($categories as $category)
+            <option value="{{$category}}">{{$category}}</option>
+            @endforeach
+        </select>
+    </div>
     <button type="submit">cc</button>
 </form>
 <script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/classic/ckeditor.js"></script>
